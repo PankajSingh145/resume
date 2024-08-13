@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 800px;
+    height: 100%;
+    margin: 1rem auto;
+    border: 1px solid black;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.container-left {
+    width: 35%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-img-container {
+    /* background-color: #ffd739; */
+    padding: 10px;
+    border-radius: 50%;
+    width: 180px;
+}
+
+.profile-img-container img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto auto;
+}
+
+.side-info {
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.side-info div {
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.detail-info{
+    font-size: 12px;
+}
+.skill-info {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.skill-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-info ul li {
+    margin-bottom: 15px;
+}
+
+.skill-bar-container {
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.skill-bar {
+    height: 100%;
+    background-color: #ffd739;
+    text-align: right;
+    border-radius: 5px;
+    line-height: 10px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.skill-label {
+    margin-bottom: 5px;
+}
+
+span .material-symbols-outlined .icons {
+    font-size: 16px;
+}
+
+.language-info {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+ul .language-info{
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0; /* Removes default padding */
+}
+
+.language-info ul li {
+    margin-bottom: 15px; /* Adds space between each language */
+}
+
+.language-bar-container {
+    width: 100%;
+    background-color: #f4f4f4; /* Background color for the language bar */
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px; /* Height of the language bar */
+}
+
+.language-bar {
+    height: 100%;
+    background-color: #ffcc00; /* Filled portion color */
+    text-align: right; /* Aligns text (percentage) to the right */
+    border-radius: 5px;
+    line-height: 10px; /* Centers the text vertically */
+    padding-right: 5px; /* Adds some padding to the right */
+    color: black; /* Text color */
+    font-weight: bold;
+}
+
+.language-label {
+    margin-bottom: 5px; /* Adds space between the language name and bar */
+}
+
+.border-div{
+    border-bottom: 2px solid #ffd739;
+    width: 65%;
+    margin-left: 1rem;
+    margin-top: 0;
+    align-items: center;
+}
+
+.icon-info {
+    background-color: #ffd739;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centers the icon inside the circle */
+}
+
+.contact-info h3 {
+    font-weight: bold;
+    /* Makes the heading bold */
+    margin: 0;
+    /* Removes any default margin */
+}
+
+
+
+.right-container {
+    padding: 1rem;
+    width: 65%;
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 6px;
+    padding: 20px;
+}
+
+.header-main h1{
+    font-size: 30px;
+}
+.header-main h1 span{
+    color: #ffd739;
+}
+
+.header-main h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffcc00;
+}
+.right-container-heading{
+    padding: 20px;
+    font-size: 14px;
+    gap: 10px;
+}
+.about-info{
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+
+.edu-info{
+    display: flex;
+    justify-content: space-between;
+}
+.edu-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.edu-info .cls-info{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    width: 30%;
+}
+.edu-info .cls-info div p{
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.edu-info .col-info{
+    width: 70%;
+    font-size: 12px;
+}
+
+.col-info .clg-name{
+    font-weight: 600;
+}
+.cls-info p{
+    margin-top: 10px;
+    color: grey;
+}
+.work-section{
+    line-height: 1.5;
+}
+.work-section .work-info{
+    margin-bottom: 1.2rem;
+}
+.work-section .job-info{
+    margin: 10px 10px;
+    font-size: 12px;
+}
+.work-section .job-info span{
+    font-weight: 600;
+}
+.work-section .job-info .job-des{
+    margin-left: 10px;
+}
+div .job-des p{
+    text-align: justify;
+}
+.pos-name{
+    color: #140707;
+    font-size: 14px;
+}
+.col-info .com-name{
+    color: gray;
+}
